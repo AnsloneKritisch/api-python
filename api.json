@@ -1,0 +1,173 @@
+{
+  "result": {
+    "index_name": "4200eb5f-1729-4fee-8477-af5feb715b3c",
+    "title": "Details of Vehicle Tax collected by Surat Municipal Corporation from Year 1989 onward",
+    "desc": "Details of Vehicle Tax collected by Surat Municipal Corporation from Year 1989 onward",
+    "org_type": "State",
+    "org": {
+      "item": [
+        "Gujarat",
+        "Surat Municipal Corporation"
+      ]
+    },
+    "sector": {
+      "item": "All"
+    },
+    "source": "data.gov.in",
+    "catalog_uuid": "b0984b17-8cec-4a32-b62b-eedfa4cc0e6f",
+    "visualizable": 1,
+    "active": 1,
+    "created": 1543317320,
+    "updated": 1628041629,
+    "created_date": "2018-11-27T16:45:20Z",
+    "updated_date": "2021-08-04T07:17:09Z",
+    "target_bucket": {
+      "index": "surat_api",
+      "type": "b0984b17-8cec-4a32-b62b-eedfa4cc0e6f",
+      "field": "4200eb5f-1729-4fee-8477-af5feb715b3c"
+    },
+    "field": {
+      "item": [
+        {
+          "id": "cityname",
+          "name": "CityName",
+          "type": "keyword"
+        },
+        {
+          "id": "vehicletypeid",
+          "name": "VehicleTypeId",
+          "type": "double"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "keyword"
+        },
+        {
+          "id": "year",
+          "name": "Year",
+          "type": "double"
+        },
+        {
+          "id": "month",
+          "name": "Month",
+          "type": "double"
+        },
+        {
+          "id": "count",
+          "name": "Count",
+          "type": "double"
+        },
+        {
+          "id": "amount",
+          "name": "Amount",
+          "type": "double"
+        }
+      ]
+    },
+    "external_ws_url": "",
+    "external_ws": 0,
+    "message": "Resource lists",
+    "version": "2.2.0",
+    "status": "ok",
+    "total": 2931,
+    "count": 10,
+    "limit": 10,
+    "offset": 0,
+    "records": {
+      "item": [
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 1,
+          "description": "MOPED/SCOOTER",
+          "year": 1989,
+          "month": 4,
+          "count": 2,
+          "amount": 293
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 1,
+          "description": "MOPED/SCOOTER",
+          "year": 1989,
+          "month": 7,
+          "count": 1,
+          "amount": 162
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 1,
+          "description": "MOPED/SCOOTER",
+          "year": 1989,
+          "month": 8,
+          "count": 1,
+          "amount": 144
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 1,
+          "description": "MOPED/SCOOTER",
+          "year": 1989,
+          "month": 10,
+          "count": 1,
+          "amount": 144
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 9,
+          "description": "LOADING TRUCK/TEMPO/TRACTOR 2 TO 4 TON",
+          "year": 1989,
+          "month": 12,
+          "count": 1,
+          "amount": 216
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 1,
+          "description": "MOPED/SCOOTER",
+          "year": 1990,
+          "month": 4,
+          "count": 1,
+          "amount": 126
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 2,
+          "description": "MOTOR CYCLE",
+          "year": 1990,
+          "month": 4,
+          "count": 1,
+          "amount": 277
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 4,
+          "description": "PRIVATE MOTOR CAR/JEEP CAR",
+          "year": 1991,
+          "month": 2,
+          "count": 2,
+          "amount": 2714
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 1,
+          "description": "MOPED/SCOOTER",
+          "year": 1991,
+          "month": 4,
+          "count": 1,
+          "amount": 601
+        },
+        {
+          "cityname": "Surat",
+          "vehicletypeid": 2,
+          "description": "MOTOR CYCLE",
+          "year": 1994,
+          "month": 3,
+          "count": 1,
+          "amount": 27
+        }
+      ]
+    }
+  }
+}
+
